@@ -14,7 +14,7 @@ export class AppComponent {
   constructor(private _weather: WeatherService) {}
 
   requestCity(): void {
-    console.log('oi')
+    // todo
   }
 
   ngOnInit(): void {

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { WeatherService } from './weather.service'
 import { Chart } from 'chart.js';
+import cities from './resources/city.list.json';
 
 @Component({
   selector: 'app-root',
@@ -10,11 +11,12 @@ import { Chart } from 'chart.js';
 export class AppComponent {
   title = 'charts-project';
   chart = [];
+  public citiesList:{name:string, country:string}[] = cities;
 
   constructor(private _weather: WeatherService) {}
 
-  requestCity(): void {
-    // todo
+  requestCity(value) {
+    this._weather.city = value
   }
 
   ngOnInit(): void {
@@ -37,7 +39,6 @@ export class AppComponent {
             year: 'numeric'
           }))
         })
-
         this.chart = new Chart('canvas', {
           type: 'line',
           data: {

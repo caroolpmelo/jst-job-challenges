@@ -4,7 +4,7 @@
     <div>
       <form>
         <input type="search" placeholder="Search city">
-        <button type="submit" (click)="requestCity">Search</button>
+        <button type="submit" (click)="requestCity($event)">Search</button>
       </form>
     </div>
   </nav>
@@ -12,4 +12,10 @@
   <div *ngIf="chart">
     <canvas id="canvas">{{ chart }}</canvas>
   </div>
+
+  <ul *ngFor="let item of citiesList">
+    <li>
+      <span>City,country_code: {{item.name}},{{item.country}}</span>
+    </li>
+  </ul>
 </div>

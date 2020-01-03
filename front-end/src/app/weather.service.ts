@@ -7,7 +7,7 @@ import 'rxjs/add/operator/map';
 })
 export class WeatherService {
   appid = 'acd3959ca4bd63ec28bba357e759863d'
-  city: 'Tyuzler,UA'
+  city: 'İstanbul,TR'
 
   constructor(private _http: HttpClient) {}
 

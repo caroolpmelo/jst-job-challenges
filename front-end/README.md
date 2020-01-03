@@ -1,35 +1,27 @@
-# Desafio @ Justa Front-end
+# ChartsProject
 
-Este teste é apresentado aos candidatos as vagas de desenvolvimento Front-end para avaliar os quesitos técnicos.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
 
-## Descrição
+## Development server
 
-Criar uma Single Page Application (SPA) de um dashboard com gráficos (ChartJS, ApexCharts, D3, etc.) e uma tabela para a exibição de dados (realizar requisições HTTP para exibir os dados na tabela, pode usar o [Public Apis](https://github.com/public-apis/public-apis)).
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Você deve fazer um fork do projeto e deixar publico para que possamos analisar commits e o processo de desenvolvimento.
+## Code scaffolding
 
-Links com conteúdo para alguns dos temas citados serão fornecidos no fim da descrição do desafio.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-### Requisitos
+## Build
 
-- Algum framework/biblioteca, como React, Vue, Angular 2+ ou JavaScript Vanilla.
-- Biblioteca para requisições HTTP (ex.: Axios), ou Fetch API.
-- Algum pré-processador CSS, como SASS, LESS, ou algum outro.
-- Ser responsivo
-- Usar algum linter para o JavaScript/TypeScript (ESLint, TSLint).
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-### Avaliação
+## Running unit tests
 
-Entre os critérios de avaliação estão:
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-- Usabilidade
-- Código limpo e organização
-- Documentação de código
-- Documentação do projeto (readme)
-- Performance
+## Running end-to-end tests
 
-### Links Úteis
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-- [GitFlow](https://medium.com/trainingcenter/utilizando-o-fluxo-git-flow-e63d5e0d5e04)
-- [Design de aplicações](https://material.io/design/)
-- [Clean Code](https://simpleprogrammer.com/clean-code-principles-better-programmer/)
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

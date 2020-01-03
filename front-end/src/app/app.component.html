@@ -1,0 +1,15 @@
+<div class="content">
+  <nav>
+    <span>Weather Dashboard</span>
+    <div>
+      <form>
+        <input type="search" placeholder="Search city">
+        <button type="submit" (click)="requestCity">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <div *ngIf="chart">
+    <canvas id="canvas">{{ chart }}</canvas>
+  </div>
+</div>
